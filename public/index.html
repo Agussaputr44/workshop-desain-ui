@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body class="font-medium">
+    <nav>
+      <div class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <a class="text-xl font-bold" href="#home"
+            >Agus
+            <span class="text-xl font-bold text-gray-400">Saputra</span></a
+          >
+          <ul class="ml-4 flex space-x-4 gap-8">
+            <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+            <li><a href="#galery" class="hover:text-gray-300">Galery</a></li>
+            <li><a href="#artikel" class="hover:text-gray-300">Artikel</a></li>
+            <li><a href="#gridgalery" class="hover:text-gray-300">Grid Galery</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-style">
+      <div class="lg:p-12 lg:flex-1" id="home" data-aos="fade-up">
+        <h3
+          class="text-4xl font-bold text-slate-800 mb-5 sm:text-5xl md:text-6xl"
+        >
+          Hello<span class="text-sky-900 text-4xl md:text-6xl sm:text-5xl">
+            There!</span
+          >
+        </h3>
+
+        <img
+          src="../img/i.png"
+          alt="gambar"
+          class="m-8 mt-4 rounded-xl shadow-xl mb-4 sm:mt-6 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
+        />
+
+        <h2 class="text-2xl font-semibold text-slate-900 sm:mt-8 sm:text-4xl">
+          Keep <span id="word" class="text-sky-800"></span>
+        </h2>
+
+        <p class="mt-2 text-slate-800 sm:text-cl sm:mt-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quas
+          perspiciatis maxime amet obcaecati. Ab ullam iusto temporibus et
+          autem, quae ea exercitationem unde itaque eius nisi rerum beatae.
+          Necessitatibus similique quia, dolor cum iusto ratione fuga voluptas
+          nam qui! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Praesentium explicabo deleniti accusantium itaque assumenda nam,
+          ducimus reprehenderit blanditiis sint officia laudantium, dolores ex
+          sequi dolorum veniam deserunt eveniet ad odio hic. Quo tempore nobis
+          doloribus ab non hic incidunt facere natus dolore nemo numquam,
+          perspiciatis tenetur quos quibusdam odit. Nisi enim voluptatem ex et
+          quam. Ducimus quas tenetur, est accusantium nobis laboriosam illum
+          possimus ipsam voluptatibus debitis asperiores eos esse, ipsum iste
+          enim illo. Iste, consequatur fugiat cum vero reiciendis mollitia
+          voluptate sapiente assumenda doloribus praesentium, perspiciatis
+          quaerat! Fugit itaque ipsum ullam consequuntur deleniti rem labore
+          tenetur est ipsam delectus!
+        </p>
+
+        <div class="mt-4 mb-6 sm:mt-6" data-aos="fade-up">
+          <a
+            href="https://youtube.com/@Agus-saputra"
+            class="inline-block px-5 py-4 bg-red-600 text-white rounded-lg shadow-lg font-semibold uppercase tracking-wider text-sm sm:text-base hover:bg-red-500"
+            >Subscribe Channel Youtube</a
+          >
+        </div>
+      </div>
+
+      <div class="hidden lg:flex lg:w-[300px]">
+        <img
+          src="../img/i.png"
+          alt="gambar"
+          class="object-cover rounded-l-full"
+        />
+      </div>
+    </div>
+
+    <h2 class="text-center font-bold text-3xl mb-6 mt-4" id="galery">My galery</h2>
+    <div
+      class="container mx-auto px-6 font-inter sm:flex sm:flex-wrap sm:gap-6 sm:justify-evenly"
+      data-aos="fade-left"
+    >
+      <div class="photo-card">
+        <img
+          src="https://source.unsplash.com/600x400?sea"
+          alt="image"
+          class="w-full"
+        />
+        <div class="px-6 py-4">
+          <div class="title-photo-style">Sea</div>
+          <p class="caption-photo-style">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            minima error nulla incidunt consequuntur quod temporibus distinctio
+            fugiat quisquam odit!
+          </p>
+        </div>
+      </div>
+
+      <div class="photo-card">
+        <img
+          src="https://source.unsplash.com/600x400?flower"
+          alt="image"
+          class="w-full"
+        />
+        <div class="px-6 py-4">
+          <div class="title-photo-style">Flower</div>
+          <p class="caption-photo-style">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            minima error nulla incidunt consequuntur quod temporibus distinctio
+            fugiat quisquam odit!
+          </p>
+        </div>
+      </div>
+
+      <div class="photo-card">
+        <img
+          src="https://source.unsplash.com/600x400?horse"
+          alt="image"
+          class="w-full"
+        />
+        <div class="px-6 py-4">
+          <div class="title-photo-style">Horse</div>
+          <p class="caption-photo-style">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            minima error nulla incidunt consequuntur quod temporibus distinctio
+            fugiat quisquam odit!
+          </p>
+        </div>
+      </div>
+
+      <div class="photo-card" data-aos="fade-down">
+        <img
+          src="https://source.unsplash.com/600x400?art"
+          alt="image"
+          class="w-full"
+        />
+        <div class="px-6 py-4">
+          <div class="title-photo-style">Art</div>
+          <p class="caption-photo-style">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            minima error nulla incidunt consequuntur quod temporibus distinctio
+            fugiat quisquam odit!
+          </p>
+        </div>
+      </div>
+      <div class="photo-card" data-aos="fade-left">
+        <img
+          src="https://source.unsplash.com/600x400?texas"
+          alt="image"
+          class="w-full"
+        />
+        <div class="px-6 py-4">
+          <div class="title-photo-style">Texas</div>
+          <p class="caption-photo-style">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            minima error nulla incidunt consequuntur quod temporibus distinctio
+            fugiat quisquam odit!
+          </p>
+        </div>
+      </div>
+      <div class="photo-card" data-aos="fade-up">
+        <img
+          src="https://source.unsplash.com/600x400?lion"
+          alt="image"
+          class="w-full"
+        />
+        <div class="px-6 py-4">
+          <div class="title-photo-style">Lion</div>
+          <p class="caption-photo-style">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            minima error nulla incidunt consequuntur quod temporibus distinctio
+            fugiat quisquam odit!
+          </p>
+        </div>
+      </div>
+      <div class="photo-card" data-aos="fade-left">
+        <img
+          src="https://source.unsplash.com/600x400?travel"
+          alt="image"
+          class="w-full"
+        />
+        <div class="px-6 py-4">
+          <div class="title-photo-style">Travel</div>
+          <p class="caption-photo-style">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            minima error nulla incidunt consequuntur quod temporibus distinctio
+            fugiat quisquam odit!
+          </p>
+        </div>
+      </div>
+      <div class="photo-card" data-aos="fade-up">
+        <img
+          src="https://source.unsplash.com/600x400?coffe"
+          alt="image"
+          class="w-full"
+        />
+        <div class="px-6 py-4">
+          <div class="title-photo-style">Coffe</div>
+          <p class="caption-photo-style">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            minima error nulla incidunt consequuntur quod temporibus distinctio
+            fugiat quisquam odit!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-[#eaeaea] mt-8 p-12" id="artikel" data-aos="fade-left">
+      <h1 class="text-center font-bold text-4xl mb-5" data-aos="fade-down">
+        My Artikel
+      </h1>
+      <p class="font-thin">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui aspernatur
+        minus rem commodi impedit dolorum quibusdam harum repellendus pariatur
+        eius iure atque exercitationem at enim saepe sapiente sequi veniam
+        voluptas, eveniet natus, quaerat necessitatibus. Minima, deleniti!
+        Voluptate expedita rem nostrum at incidunt, quia fuga harum eius ipsa
+        asperiores quam minus praesentium esse, eligendi quibusdam beatae
+        delectus velit ratione dolorem. Omnis asperiores sed placeat, hic
+        eveniet deserunt ratione, fugiat expedita unde ducimus cum enim neque
+        totam optio nihil officia nisi, sint rerum facere repellendus quam
+        laborum. Impedit molestias tempora quis minus quisquam vel qui
+        laboriosam, architecto consequatur? Quis hic ducimus magnam. Lorem,
+        ipsum dolor sit amet consectetur adipisicing elit. Tempore, illum!
+        Quisquam esse porro explicabo, eveniet, mollitia, necessitatibus at
+        optio maiores voluptate ipsa in vitae. Vel voluptate dolores commodi
+        repellat officiis? Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Voluptates deleniti facere quo labore aut dolore tempora quod
+        dicta doloribus molestias doloremque ea cumque est debitis ad eius, ut
+        neque voluptas atque quibusdam pariatur ducimus? At praesentium corrupti
+        nemo optio velit culpa eos voluptatem perferendis excepturi asperiores
+        ipsum, consectetur accusantium id voluptate quis repudiandae atque
+        delectus harum odio consequuntur aperiam ratione! Quo, inventore. Soluta
+        vero veniam quisquam perspiciatis fuga magni fugiat nisi omnis expedita?
+        Debitis enim natus mollitia aperiam voluptates reiciendis maiores optio
+        numquam eum ea fugit tenetur aut commodi molestiae beatae, quos expedita
+        excepturi sapiente blanditiis nemo, maxime odio. Veniam commodi vero
+        dignissimos dolor ipsum dicta asperiores quibusdam. Alias corrupti atque
+        blanditiis soluta fugit eum dolorum reprehenderit asperiores ab fugiat,
+        excepturi sit accusamus sapiente. Fugiat enim, sequi iste, voluptatibus
+        necessitatibus libero ex vel magnam officiis distinctio eum ipsa
+        voluptatum quam corporis excepturi commodi, a assumenda nihil.
+        Voluptatum soluta id incidunt nam a tempore delectus cumque autem aut
+        provident est, quidem natus distinctio omnis numquam perspiciatis,
+        perferendis deserunt officiis. Ipsa, libero amet dolores laudantium quo
+        assumenda, accusamus optio culpa dolorum impedit quaerat, nostrum error
+        numquam minima! Repellendus fugiat laudantium possimus ullam
+        accusantium, earum consequatur nulla. Laborum facere consequuntur quae
+        temporibus in.
+      </p>
+    </div>
+
+    <div
+      class="mt-18 p-2 font-inter grid grid-cols-2 gap-3 md:grid-cols-4 md:p-4"
+    id="gridgalery">
+      <h2
+        class="h-15 font-semibold text-lg text-slate-700 md:col-start-4 md:row-start-2 md:flex"
+        data-aos="fade-down"
+      >
+        <span class="self-center">Welcome to grid galery</span>
+      </h2>
+
+      <div
+        class="h-15 font-semibold text-lg text-slate-400 md:col-start-2 md:row-start-2 md:flex"
+      >
+        <span class="self-end">@Agusptraa</span>
+      </div>
+
+      <div
+        class="h-15 aspect-[4/3] bg-blue-800 m-1 rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90"
+      >
+        <div
+          class="w-full h-full bg-[url(https://source.unsplash.com/600x400?cow)] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"
+        ></div>
+      </div>
+
+      <div
+        class="h-15 aspect-[4/3] bg-blue-800 m-1 rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90"
+      >
+        <div
+          class="w-full h-full bg-[url(https://source.unsplash.com/600x400?mountain)] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"
+        ></div>
+      </div>
+
+      <div
+        class="h-15 aspect-[4/3] bg-blue-800 m-1 rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90"
+      >
+        <div
+          class="w-full h-full bg-[url(https://source.unsplash.com/600x400?river)] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"
+        ></div>
+      </div>
+
+      <div
+        class="h-15 aspect-[4/3] bg-blue-800 m-1 rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90"
+        data-aos="fade-zoom-in"
+      >
+        <div
+          class="w-full h-full bg-[url(https://source.unsplash.com/600x400?ramadhan)] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"
+        ></div>
+      </div>
+
+      <div
+        class="h-15 aspect-[4/3] bg-blue-800 m-1 rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90"
+      >
+        <div
+          class="w-full h-full bg-[url(https://source.unsplash.com/600x400?swiss)] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"
+        ></div>
+      </div>
+
+      <div
+        class="h-15 aspect-[4/3] bg-blue-800 m-1 rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90"
+        data-aos="fade-zoom-in"
+      >
+        <div
+          class="w-full h-full bg-[url(https://source.unsplash.com/600x400?dessert)] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"
+        ></div>
+      </div>
+
+      <div
+        class="h-15 aspect-[4/3] bg-blue-800 m-1 rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90"
+      >
+        <div
+          class="w-full h-full bg-[url(https://source.unsplash.com/600x400?sunrise)] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"
+        ></div>
+      </div>
+
+      <div
+        class="h-15 aspect-[4/3] bg-blue-800 m-1 rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90"
+      >
+        <div
+          class="w-full h-full bg-[url(https://source.unsplash.com/600x400?sea)] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"
+        ></div>
+      </div>
+
+      <div
+        class="h-15 aspect-[4/3] bg-blue-800 m-1 rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90"
+      >
+        <div
+          class="w-full h-full bg-[url(https://source.unsplash.com/600x400?summer)] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"
+        ></div>
+      </div>
+
+      <div
+        class="h-15 aspect-[4/3] bg-blue-800 m-1 rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-90"
+      >
+        <div
+          class="w-full h-full bg-[url(https://source.unsplash.com/600x400?spring)] bg-cover bg-center absolute group-hover:scale-125 transition-all duration-500 group-hover:rotate-12"
+        ></div>
+      </div>
+    </div>
+
+    <footer class="text-center p-5 bg-[#eaeaea]">&copy;agusptraa</footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      var typed = new Typed("#word", {
+        strings: ["Coding.", "Sleeping.", "Eating."],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+      });
+
+      // Initialize AOS
+      AOS.init({
+        duration: 800, // Set the animation duration
+        offset: 100, // Set the offset (in pixels) to start the animation
+        easing: "ease-in-out", // Set the easing method
+        once: true, // Only animate an element once during scrolling
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* component layer dari main.html */
+@layer components{
+    .photo-card{
+        @apply shadow-xl rounded-md overflow-hidden mb-10 sm:mb-0 sm:w-64 md:w-80 lg:w-72
+    }
+
+    .container-style{
+        @apply container px-3 mt-3 font-extralight max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full lg:p-0 bg-[#eaeaea]
+    }
+
+    .title-photo-style{
+        @apply font-bold text-xl text-slate-800 text-center
+    }
+
+    .caption-photo-style{
+        @apply text-sm text-slate-700 text-center py-3
+    }
+}
+
+
+
+/* utilities dari dark mode di index.html */
+@layer utilities{
+    #toggle:checked ~ label div.toggle-circle{
+            @apply translate-x-3
+        }
+}
